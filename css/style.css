@@ -433,6 +433,13 @@ a {
      max-width: 320px;
 }
 
+@media (min-resolution: 192dpi) {
+     .section-title {
+          background-image: linear-gradient(to bottom,
+                    rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero/mobile-people@2x-min.jpg);
+     }
+}
+
 .title{
      width: 216px; 
      margin-left: auto;
@@ -474,12 +481,6 @@ a {
 .main-page-button:focus {
      background: #404BBF;
 }
-@media (min-resolution: 192dpi){
-     .section-title{
-          background-image: linear-gradient(to bottom,
-                    rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero/mobile-people@2x-min.jpg);
-     }
-}
 
   @media screen and (min-width: 768px) {
        .section-title{
@@ -491,6 +492,14 @@ a {
           
        }
 
+ @media (min-resolution: 192dpi) {
+      .section-title {
+           background-image: linear-gradient(to bottom,
+                rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero/tablet-people@2x-min.jpg);
+     
+                  }
+             }
+
        .title{
           min-width: 496px;
           font-size: 56px;
@@ -499,13 +508,6 @@ a {
        }
   }
 
-  @media (min-resolution: 192dpi) {
-.section-title {
-          background-image: linear-gradient(to bottom,
-                    rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero/tablet-people@2x-min.jpg);
-
-     }
-  }
 
   @media screen and (min-width: 1158px){
      .section-title {
@@ -516,19 +518,20 @@ a {
                     rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero/people-office-min.jpg);
   }
 
-  .title{
-     margin-bottom: 48px;
-  }
-}
-
-  @media (min-resolution: 192dpi){
+  @media (min-resolution: 192dpi) {
        .section-title {
             background-image: linear-gradient(to bottom,
                       rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero/people-office@2x-min.jpg);
 
        }
-     }
+  }
 
+  .title{
+     margin-bottom: 48px;
+  }
+}
+
+  
 /* section-2 */
 
 .section-benefits {
